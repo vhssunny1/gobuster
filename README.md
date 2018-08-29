@@ -8,3 +8,5 @@ sample 1 - ./gobuster -u https://mysite.com/path/to/folder -c 'session=123456' -
 sample 2 - ./gobuster -u https://buffered.io -w ~/wordlists/shortlist.txt
 Verbose output - ./gobuster -u https://buffered.io -w ~/wordlists/shortlist.txt -v
 
+Note i have used wordlist from - https://localdomain.pw/Content-Bruteforcing-Wordlist/dirsearch-wordlist.txt and placed in /gobuster folder ,however if you wish to change wordlist , you can use docker voulme (https://docs.docker.com/storage/volumes/) option to run docker.
+
