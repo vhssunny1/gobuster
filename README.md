@@ -14,8 +14,9 @@ Note i have used wordlist from - https://localdomain.pw/Content-Bruteforcing-Wor
 
 #scan syntax "-u https://targetsite -w ~/wordlists/shortlist.txt"
 
-usage-
+Usage-
 docker run --rm vhssunny1/gobuster -u https://targetsite -w /go/gobuster/dirsearch-wordlist.txt
+
 docker run --rm vhssunny1/gobuster -u https://targetsite -w /go/gobuster/dirsearch-wordlist.txt -q -n -e -o report.txt
 
 Dockerfile - https://github.com/vhssunny1/gobuster
