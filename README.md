@@ -12,3 +12,10 @@ Verbose output - ./gobuster -u https://buffered.io -w ~/wordlists/shortlist.txt 
 
 Note i have used wordlist from - https://localdomain.pw/Content-Bruteforcing-Wordlist/dirsearch-wordlist.txt and placed in /gobuster folder ,however if you wish to change wordlist , you can use docker voulme (https://docs.docker.com/storage/volumes/) option to run docker.
 
+#scan syntax "-u https://targetsite -w ~/wordlists/shortlist.txt"
+
+usage-
+docker run --rm vhssunny1/gobuster -u https://targetsite -w /go/gobuster/dirsearch-wordlist.txt
+docker run --rm vhssunny1/gobuster -u https://targetsite -w /go/gobuster/dirsearch-wordlist.txt -q -n -e -o report.txt
+
+Dockerfile - https://github.com/vhssunny1/gobuster
